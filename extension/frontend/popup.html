@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+
+    <link rel="stylesheet" src="popup.css">
+</head>
+<body>
+    <div>
+        <h2>Welcome to Wordle Suggester</h2>
+        <!-- Make an onClick action to terminate the popup window -->
+        <button id="close-window">X</button>
+
+
+        <!-- Make an onClick action to run py script to suggest starting word -->
+        <button><h4>Give me a starter word</h4></button>
+
+        <div class="info-panel">
+            <p>Good starting words use common letters (r, s, t, l, n, e) and many vowels (a, e, i, o, u)</p>
+        </div>
+    </div>
+</body>
+<script src="popup.js"></script>
+<script src="content.js"></script>
+</html>
